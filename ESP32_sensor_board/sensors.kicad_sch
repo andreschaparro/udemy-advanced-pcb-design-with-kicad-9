@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f6054531-c89e-48e3-9f7c-e80d62667e12")
+	(paper "A4")
+	(title_block
+		(date "2025-06-02")
+		(rev "1")
+		(company "Ing. Andrés Chaparro")
+	)
+	(lib_symbols)
+)

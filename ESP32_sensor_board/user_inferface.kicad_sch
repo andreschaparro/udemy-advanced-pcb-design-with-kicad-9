@@ -2,10 +2,9 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "891fb418-b240-493d-9878-b0ddf644a353")
+	(uuid "bb817d39-c4b2-4819-ab2a-34a43db76d26")
 	(paper "A4")
 	(title_block
-		(title "ESP32 sensor board - Root")
 		(date "2025-06-02")
 		(rev "1")
 		(company "Ing. Andrés Chaparro")

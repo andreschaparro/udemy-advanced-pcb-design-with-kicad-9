@@ -397,6 +397,12 @@
         },
         {
           "group_by": false,
+          "label": "M_PART_NUMBER",
+          "name": "M_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
@@ -411,6 +417,18 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SHOP",
+          "name": "SHOP",
           "show": false
         },
         {
@@ -498,7 +516,15 @@
     ],
     [
       "33342595-9c3d-41d4-b977-eb44bc0caa7a",
-      "ESP32-C3-S2"
+      "ESP32-C3-02"
+    ],
+    [
+      "3bc3acba-6cc3-48ec-8c93-2ea0b5d54a24",
+      "Sensors"
+    ],
+    [
+      "8cf44fa8-3eba-448e-912c-b86163a0ee4c",
+      "User interface"
     ]
   ],
   "text_variables": {}
