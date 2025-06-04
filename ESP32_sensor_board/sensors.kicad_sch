@@ -1962,6 +1962,12 @@
 		(uuid "c2ed2ace-e452-41a7-a796-7f09a61afd64")
 	)
 	(junction
+		(at 170.18 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed62e680-263e-42f8-bcaa-cbc197cf49c2")
+	)
+	(junction
 		(at 85.09 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1976,16 +1982,6 @@
 			(type default)
 		)
 		(uuid "03f830a8-2595-4c25-aae9-4c34636b2176")
-	)
-	(wire
-		(pts
-			(xy 170.18 128.27) (xy 170.18 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c5edba-1c8b-44b4-9a69-9b277d233eff")
 	)
 	(wire
 		(pts
@@ -2129,6 +2125,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 129.54) (xy 170.18 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc026e8-3494-4bbe-ae24-8c93a3fc409e")
+	)
+	(wire
+		(pts
 			(xy 232.41 114.3) (xy 232.41 110.49)
 		)
 		(stroke
@@ -2259,6 +2265,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 139.7) (xy 170.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2eee19-e3f7-4866-b789-79793795f89a")
+	)
+	(wire
+		(pts
 			(xy 200.66 134.62) (xy 201.93 134.62)
 		)
 		(stroke
@@ -2326,6 +2342,16 @@
 			(type default)
 		)
 		(uuid "7f6cd6d3-9ec3-4462-b3bd-a52bd39e08c6")
+	)
+	(wire
+		(pts
+			(xy 171.45 129.54) (xy 170.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8666776c-841d-4559-9181-bb0f7e3c7546")
 	)
 	(wire
 		(pts
@@ -2476,6 +2502,16 @@
 			(type default)
 		)
 		(uuid "ad2e932e-edaf-43b5-a0b0-50bd6bd39084")
+	)
+	(wire
+		(pts
+			(xy 170.18 128.27) (xy 170.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0add7d0-5fe2-4759-88d2-ec3a726bf43e")
 	)
 	(wire
 		(pts
@@ -2667,6 +2703,16 @@
 		)
 		(uuid "f931977e-16a1-4bb4-860a-df502e60abff")
 	)
+	(label "FEEDBACK_2"
+		(at 171.45 129.54 0)
+		(effects
+			(font
+				(size 0.63 0.63)
+			)
+			(justify left bottom)
+		)
+		(uuid "6486c72c-6630-4b2b-92ff-8af8a1ce9a90")
+	)
 	(label "BIAS"
 		(at 147.32 105.41 0)
 		(effects
@@ -2678,7 +2724,7 @@
 		(uuid "a7432ed3-bafa-4738-9226-e98afb0382bc")
 	)
 	(label "MK_INPUT"
-		(at 171.45 115.57 0)
+		(at 170.18 115.57 0)
 		(effects
 			(font
 				(size 0.63 0.63)
@@ -2687,8 +2733,8 @@
 		)
 		(uuid "c6f22655-767b-4401-906b-f44e7f69d6ce")
 	)
-	(label "FEEDBACK"
-		(at 171.45 118.11 0)
+	(label "FEEDBACK_1"
+		(at 170.18 118.11 0)
 		(effects
 			(font
 				(size 0.63 0.63)
@@ -3456,7 +3502,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 129.54 0)
+		(at 170.18 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3464,7 +3510,7 @@
 		(dnp no)
 		(uuid "568d62a1-b098-4c54-8663-c53002cff625")
 		(property "Reference" "#PWR049"
-			(at 170.18 135.89 0)
+			(at 170.18 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,7 +3519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 133.35 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 129.54 0)
+			(at 170.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 129.54 0)
+			(at 170.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +3545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 129.54 0)
+			(at 170.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,6 +3560,73 @@
 			(project "ESP32_sensor_board"
 				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/3bc3acba-6cc3-48ec-8c93-2ea0b5d54a24"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 170.18 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "636b68e7-f500-4c39-a541-b3ad52b37e3c")
+		(property "Reference" "C19"
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 175.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 171.1452 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41816f78-4e44-475c-9e3f-37543e7808eb")
+		)
+		(pin "2"
+			(uuid "ef76fb6e-4991-4947-b682-c26a5760da7a")
+		)
+		(instances
+			(project "ESP32_sensor_board"
+				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/3bc3acba-6cc3-48ec-8c93-2ea0b5d54a24"
+					(reference "C19")
 					(unit 1)
 				)
 			)
