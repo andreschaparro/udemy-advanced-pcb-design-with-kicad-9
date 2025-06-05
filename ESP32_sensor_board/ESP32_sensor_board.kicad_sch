@@ -5275,6 +5275,16 @@
 		)
 		(uuid "f863e2e4-22fe-44be-80f7-c128f354b4db")
 	)
+	(label "CC1"
+		(at 44.45 40.64 180)
+		(effects
+			(font
+				(size 0.63 0.63)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d8a3831-6606-466f-9824-62fe613e9ad4")
+	)
 	(label "VBUS"
 		(at 44.45 50.8 180)
 		(effects
@@ -5494,6 +5504,16 @@
 			(justify left bottom)
 		)
 		(uuid "bcaca0a6-831b-4339-9ddb-e4ba0243dba8")
+	)
+	(label "CC2"
+		(at 85.09 40.64 0)
+		(effects
+			(font
+				(size 0.63 0.63)
+			)
+			(justify left bottom)
+		)
+		(uuid "c75029b6-95e2-4186-9c9a-1ed49bf0d7af")
 	)
 	(label "+5V_USB"
 		(at 198.12 52.07 180)

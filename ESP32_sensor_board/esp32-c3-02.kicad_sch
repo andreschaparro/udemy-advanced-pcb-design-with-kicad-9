@@ -5860,7 +5860,7 @@
 		)
 		(uuid "ef39309c-ba34-4692-bf34-0de8095dc244")
 	)
-	(label "SCLK"
+	(label "CLK"
 		(at 140.97 137.16 0)
 		(effects
 			(font
