@@ -7,7 +7,7 @@
 	(title_block
 		(title "User Interface")
 		(date "2025-06-02")
-		(rev "1")
+		(rev "2")
 		(company "Ing. Andrés Chaparro")
 	)
 	(lib_symbols
@@ -805,6 +805,361 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TL3305AF260QG:TL3305AF260QG"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TL3305AF260QG"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TL3305AF260QG:SW_TL3305AF260QG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-4 E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TL3305AF260QG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TL3305AF260QG_0_0"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 2.54 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC817"
 			(pin_names
 				(offset 0)
@@ -1003,398 +1358,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "USLPT2819DT2TR:USLPT2819DT2TR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "USLPT2819DT2TR"
-				(at -5.08 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "TE Connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "USLPT2819DT2TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "TE CONNECTIVITY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "USLPT2819DT2TR_0_0"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.143) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0.762)
-					(radius 0.3592)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -0.762)
-					(radius 0.3592)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.143)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.016) (xy 1.016 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "T1"
-					(at -4.572 1.27 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "T3"
-					(at -4.572 -2.032 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "T2"
-					(at 3.556 1.27 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "T4"
-					(at 3.556 -2.032 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1631,7 +1594,7 @@
 	)
 	(rectangle
 		(start 139.7 25.4)
-		(end 210.82 96.52)
+		(end 213.36 96.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -1667,7 +1630,7 @@
 	)
 	(text "RESET"
 		(exclude_from_sim no)
-		(at 193.04 30.48 0)
+		(at 194.31 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1678,7 +1641,7 @@
 	)
 	(text "BOOT"
 		(exclude_from_sim no)
-		(at 154.94 30.48 0)
+		(at 157.48 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1747,34 +1710,22 @@
 		(uuid "1d1a3cb7-9c98-456d-9ad9-02d37c544e21")
 	)
 	(junction
-		(at 179.07 41.91)
+		(at 187.96 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "264d5e3b-ac2a-4bdc-bd16-67b8eba10845")
+	)
+	(junction
+		(at 180.34 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4791b7bf-e60f-42ec-8765-ca855358177b")
 	)
 	(junction
-		(at 168.91 36.83)
+		(at 210.82 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4dec08d7-04b5-4dcc-bbe6-466af85ef1e8")
-	)
-	(junction
-		(at 207.01 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1762827-2973-4bf5-96b8-87976b93fc6d")
-	)
-	(junction
-		(at 148.59 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b829c990-ace4-4747-9912-5f58026a5ed8")
-	)
-	(junction
-		(at 179.07 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf974219-bdbe-4e01-b72e-d067d65aeb0f")
+		(uuid "d79596b0-4c4f-4674-8bc4-8481a779a09b")
 	)
 	(junction
 		(at 148.59 41.91)
@@ -1788,15 +1739,11 @@
 		(color 0 0 0 0)
 		(uuid "efaf8985-cac4-4974-b20f-e25b837d257a")
 	)
-	(wire
-		(pts
-			(xy 179.07 46.99) (xy 204.47 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01064332-b970-40d6-a822-c39f0565b8b1")
+	(junction
+		(at 171.45 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f58e8b31-ba6d-4a62-b07d-ac8f4e17a26f")
 	)
 	(wire
 		(pts
@@ -1830,23 +1777,23 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 36.83) (xy 168.91 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0adab8ac-585b-4eed-9426-ae4a13ea422a")
-	)
-	(wire
-		(pts
-			(xy 179.07 41.91) (xy 187.96 41.91)
+			(xy 180.34 41.91) (xy 187.96 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0bd67537-5946-44c1-946d-86d79aafcbbc")
+	)
+	(wire
+		(pts
+			(xy 170.18 41.91) (xy 171.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0af63d-a323-4c9f-8df5-2234e4d7c170")
 	)
 	(wire
 		(pts
@@ -1880,37 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 36.83) (xy 207.01 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27eff2f7-1323-49f6-9ab0-8ae051889005")
-	)
-	(wire
-		(pts
-			(xy 165.1 36.83) (xy 168.91 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af56dc8-1ec5-4973-9edf-d5615c18cb86")
-	)
-	(wire
-		(pts
-			(xy 186.69 36.83) (xy 186.69 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bb10d8a-a049-469d-a5e0-b8ca94ebd562")
-	)
-	(wire
-		(pts
-			(xy 179.07 39.37) (xy 179.07 41.91)
+			(xy 180.34 39.37) (xy 180.34 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1920,13 +1837,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 31.75) (xy 168.91 31.75)
+			(xy 148.59 41.91) (xy 148.59 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36d5ba2d-8da3-427d-be0e-7376866526d9")
+		(uuid "2e59237b-31f7-45bd-a7e5-b3627daba1b1")
+	)
+	(wire
+		(pts
+			(xy 171.45 36.83) (xy 171.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39bd3f28-9c6d-473d-851b-dae6c079eba9")
 	)
 	(wire
 		(pts
@@ -1940,16 +1867,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 36.83) (xy 186.69 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bead160-eea5-4be1-b353-14b9f5b946e4")
-	)
-	(wire
-		(pts
 			(xy 36.83 69.85) (xy 35.56 69.85)
 		)
 		(stroke
@@ -1960,13 +1877,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 36.83) (xy 207.01 36.83)
+			(xy 187.96 41.91) (xy 189.23 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bff54d8-f020-4dae-8b11-bc68a715d823")
+		(uuid "465cf7d5-b075-4c2b-b32d-168c3921ac89")
+	)
+	(wire
+		(pts
+			(xy 209.55 41.91) (xy 210.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aede3d7-c454-404b-b9d3-271ce2656c4c")
 	)
 	(wire
 		(pts
@@ -1980,17 +1907,27 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 31.75) (xy 168.91 36.83)
+			(xy 171.45 41.91) (xy 171.45 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "522cbb5a-f493-4eb4-a913-0b417434133d")
+		(uuid "4f538294-845e-4025-b81b-d8678e161311")
 	)
 	(wire
 		(pts
-			(xy 179.07 46.99) (xy 179.07 48.26)
+			(xy 148.59 36.83) (xy 148.59 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b72989-219a-4301-a169-6821da7597a1")
+	)
+	(wire
+		(pts
+			(xy 180.34 41.91) (xy 180.34 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2020,13 +1957,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 31.75) (xy 207.01 31.75)
+			(xy 170.18 36.83) (xy 171.45 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6655cf29-8930-4066-bfb6-b19bce33ef61")
+		(uuid "642054b8-adc7-49ad-9096-315ee292b63a")
 	)
 	(wire
 		(pts
@@ -2040,6 +1977,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 41.91) (xy 210.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2129b3-c1fb-4566-bf47-f91d57d002fe")
+	)
+	(wire
+		(pts
 			(xy 149.86 80.01) (xy 149.86 88.9)
 		)
 		(stroke
@@ -2050,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 55.88) (xy 179.07 57.15)
+			(xy 180.34 50.8) (xy 180.34 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2080,33 +2027,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 41.91) (xy 148.59 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78509ce8-f856-45ca-8d62-a30d2a4d52cf")
-	)
-	(wire
-		(pts
-			(xy 148.59 55.88) (xy 148.59 57.15)
+			(xy 148.59 52.07) (xy 148.59 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79ee98c4-b3ac-41a8-b7b4-fe645cbb311a")
-	)
-	(wire
-		(pts
-			(xy 204.47 41.91) (xy 203.2 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f265e0c-14b6-4709-8559-59a8b2618f0c")
 	)
 	(wire
 		(pts
@@ -2117,16 +2044,6 @@
 			(type default)
 		)
 		(uuid "800b7429-66df-4094-a4a3-0c1859c7d06b")
-	)
-	(wire
-		(pts
-			(xy 166.37 41.91) (xy 165.1 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84bbdd53-18fe-4a0d-b584-2bf9c3490055")
 	)
 	(wire
 		(pts
@@ -2170,13 +2087,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 46.99) (xy 166.37 46.99)
+			(xy 189.23 36.83) (xy 187.96 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94def0ec-870b-41a6-abd2-0f53263c5c49")
+		(uuid "969b4ab9-bd26-4a2a-9b43-bfd9542c1d54")
 	)
 	(wire
 		(pts
@@ -2210,6 +2127,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 36.83) (xy 210.82 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef2f512-2336-457b-b4ca-4ff992790d3b")
+	)
+	(wire
+		(pts
 			(xy 171.45 67.31) (xy 171.45 68.58)
 		)
 		(stroke
@@ -2220,27 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 46.99) (xy 148.59 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bff7cf01-e4cb-4dbe-bae9-e9eaa73715d5")
-	)
-	(wire
-		(pts
-			(xy 207.01 31.75) (xy 207.01 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5236f88-8889-4f76-a302-f181d59e5e76")
-	)
-	(wire
-		(pts
-			(xy 179.07 30.48) (xy 179.07 31.75)
+			(xy 180.34 30.48) (xy 180.34 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2250,13 +2157,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 41.91) (xy 179.07 41.91)
+			(xy 179.07 41.91) (xy 180.34 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7572a22-0a04-4b93-be80-b2b1ee85bac7")
+	)
+	(wire
+		(pts
+			(xy 187.96 36.83) (xy 187.96 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3fc6a45-2846-4b4f-be14-89b6eabdd1ee")
 	)
 	(wire
 		(pts
@@ -2277,16 +2194,6 @@
 			(type default)
 		)
 		(uuid "dad4db10-5a10-45f3-851f-e260fed2005d")
-	)
-	(wire
-		(pts
-			(xy 204.47 46.99) (xy 204.47 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e245c5ba-6d59-447c-a37a-9e87de59f5b1")
 	)
 	(wire
 		(pts
@@ -2320,13 +2227,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 36.83) (xy 148.59 31.75)
+			(xy 210.82 36.83) (xy 210.82 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec13a193-2fe1-47a6-84ef-7e8d30f164f3")
+		(uuid "f02d835e-0b27-4fde-9787-e8cead1131e8")
 	)
 	(wire
 		(pts
@@ -2337,16 +2244,6 @@
 			(type default)
 		)
 		(uuid "f48520e7-6558-4dbd-a3cd-d7c8b9ee4000")
-	)
-	(wire
-		(pts
-			(xy 179.07 41.91) (xy 179.07 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5745684-dd0f-491d-bdb3-a0da3c2ec9fd")
 	)
 	(wire
 		(pts
@@ -2367,16 +2264,6 @@
 			(type default)
 		)
 		(uuid "fdcbd417-79c3-4cfb-bba7-aacae59a72c6")
-	)
-	(wire
-		(pts
-			(xy 166.37 46.99) (xy 166.37 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe756b01-7e0e-4905-ae72-d5195dc66b4f")
 	)
 	(image
 		(at 198.12 74.93)
@@ -2579,7 +2466,43 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACpAQAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACpAQAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"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"
 		)
 	)
 	(label "B_Q3"
@@ -2615,7 +2538,7 @@
 	)
 	(hierarchical_label "EN"
 		(shape input)
-		(at 177.8 41.91 180)
+		(at 179.07 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2858,15 +2781,15 @@
 	(symbol
 		(lib_id "Transistor_BJT:BC817")
 		(at 168.91 88.9 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "15925ef9-0eb3-4b33-80aa-7a48ba073307")
 		(property "Reference" "Q3"
-			(at 173.99 87.6299 0)
+			(at 173.99 90.1701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2798,7 @@
 			)
 		)
 		(property "Value" "BC817"
-			(at 173.99 90.1699 0)
+			(at 173.99 87.6301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2807,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 173.99 90.805 0)
+			(at 173.99 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,8 +2855,203 @@
 		)
 	)
 	(symbol
+		(lib_id "TL3305AF260QG:TL3305AF260QG")
+		(at 199.39 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24d69190-50fd-465c-aef7-7867eb607fa7")
+		(property "Reference" "S2"
+			(at 199.39 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL3305AF260QG"
+			(at 199.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_TL3305AF260QG"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4 E-Switch"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3305AF260QG"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a11eb968-a2f4-4348-9e56-d68513a65ef6")
+		)
+		(pin "1"
+			(uuid "24d6d929-1537-48e7-9d9b-a8862ae1602f")
+		)
+		(pin "4"
+			(uuid "ad4203aa-60d8-4f3f-b26e-cf87a73adeda")
+		)
+		(pin "2"
+			(uuid "c3aa62f6-4ad9-4c11-8d9e-599d5ade97ae")
+		)
+		(instances
+			(project "ESP32_sensor_board"
+				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/8cf44fa8-3eba-448e-912c-b86163a0ee4c"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 179.07 52.07 0)
+		(at 180.34 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2942,7 +3060,7 @@
 		(fields_autoplaced yes)
 		(uuid "39bda00c-5c71-4cb9-9569-9aac2d068cb0")
 		(property "Reference" "C22"
-			(at 182.88 50.7999 0)
+			(at 184.15 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +3069,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 182.88 53.3399 0)
+			(at 184.15 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +3078,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 180.0352 55.88 0)
+			(at 181.3052 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +3087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 52.07 0)
+			(at 180.34 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +3096,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 52.07 0)
+			(at 180.34 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,190 +3114,6 @@
 			(project "ESP32_sensor_board"
 				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/8cf44fa8-3eba-448e-912c-b86163a0ee4c"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "USLPT2819DT2TR:USLPT2819DT2TR")
-		(at 157.48 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e2fec55-0fb0-4c0c-9db1-48e699ca0c2d")
-		(property "Reference" "S1"
-			(at 157.48 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USLPT2819DT2TR"
-			(at 157.48 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_USLPT2819DT2TR"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "P"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "USLPT2819DT2TR"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE CONNECTIVITY"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f703e42b-79b0-4d35-b2a6-de530b2d72e8")
-		)
-		(pin "2"
-			(uuid "bb04af93-f93c-4501-8046-7bc4d395c2c3")
-		)
-		(pin "4"
-			(uuid "09307bf7-24fa-4feb-8cf5-cf339510b557")
-		)
-		(pin "1"
-			(uuid "4621a3c8-da33-4c8b-bce6-e8a327a06196")
-		)
-		(instances
-			(project ""
-				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/8cf44fa8-3eba-448e-912c-b86163a0ee4c"
-					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -3245,6 +3179,201 @@
 			(project ""
 				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/8cf44fa8-3eba-448e-912c-b86163a0ee4c"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL3305AF260QG:TL3305AF260QG")
+		(at 160.02 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cc0f3a2-2d52-4813-877d-ebc09473f2b9")
+		(property "Reference" "S1"
+			(at 160.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL3305AF260QG"
+			(at 160.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_TL3305AF260QG"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4 E-Switch"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3305AF260QG"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f7073102-511a-407a-9f23-3d7f43f8a20a")
+		)
+		(pin "1"
+			(uuid "755bd173-e78e-46d1-b219-dd73180ab6e3")
+		)
+		(pin "4"
+			(uuid "037d7019-3461-4e09-a30f-52048e8c2595")
+		)
+		(pin "2"
+			(uuid "595a1187-0957-4ddd-af84-869a43dd857d")
+		)
+		(instances
+			(project ""
+				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/8cf44fa8-3eba-448e-912c-b86163a0ee4c"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -3470,7 +3599,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 148.59 52.07 0)
+		(at 148.59 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3479,7 +3608,7 @@
 		(fields_autoplaced yes)
 		(uuid "78ddea2d-2cc0-43f5-9651-134edc6368b0")
 		(property "Reference" "C21"
-			(at 152.4 50.7999 0)
+			(at 152.4 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +3617,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 152.4 53.3399 0)
+			(at 152.4 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3626,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 149.5552 55.88 0)
+			(at 149.5552 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 52.07 0)
+			(at 148.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3644,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 52.07 0)
+			(at 148.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,72 +3669,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "843e205b-2b67-40cc-868b-ab5cfc6ffe2a")
-		(property "Reference" "#PWR061"
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ad01de8-a27d-4e2f-93d3-ef56f755ef7a")
-		)
-		(instances
-			(project "ESP32_sensor_board"
-				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/8cf44fa8-3eba-448e-912c-b86163a0ee4c"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 179.07 57.15 0)
+		(at 180.34 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3613,7 +3677,7 @@
 		(dnp no)
 		(uuid "884c9fc0-a7b6-4ccb-9016-f656280dbbf8")
 		(property "Reference" "#PWR060"
-			(at 179.07 63.5 0)
+			(at 180.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 60.96 0)
+			(at 180.34 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 57.15 0)
+			(at 180.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 57.15 0)
+			(at 180.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 57.15 0)
+			(at 180.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +3734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 38.1 0)
+		(at 171.45 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3678,7 +3742,7 @@
 		(dnp no)
 		(uuid "8d4bcd88-c1c0-4941-b3cd-a2ae1eefbb27")
 		(property "Reference" "#PWR059"
-			(at 168.91 44.45 0)
+			(at 171.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3751,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 41.91 0)
+			(at 171.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 38.1 0)
+			(at 171.45 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 38.1 0)
+			(at 171.45 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3777,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 38.1 0)
+			(at 171.45 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,192 +3798,8 @@
 		)
 	)
 	(symbol
-		(lib_id "USLPT2819DT2TR:USLPT2819DT2TR")
-		(at 195.58 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91abe646-e6f8-4c52-b148-1c38cb2a9f47")
-		(property "Reference" "S2"
-			(at 195.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USLPT2819DT2TR"
-			(at 195.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_USLPT2819DT2TR"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "P"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "USLPT2819DT2TR"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE CONNECTIVITY"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2624f1f6-ddb5-4390-be9c-3b5de792ba37")
-		)
-		(pin "2"
-			(uuid "c03c8e37-e285-4af2-a038-7ee155075928")
-		)
-		(pin "4"
-			(uuid "a9f55e27-4157-4ae5-ba68-739aaed56d25")
-		)
-		(pin "1"
-			(uuid "c9c16539-938e-4993-b6c2-7399f29b2537")
-		)
-		(instances
-			(project "ESP32_sensor_board"
-				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/8cf44fa8-3eba-448e-912c-b86163a0ee4c"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 148.59 57.15 0)
+		(at 148.59 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3927,7 +3807,7 @@
 		(dnp no)
 		(uuid "94475644-d8ce-4957-9c11-2fef10a0c91c")
 		(property "Reference" "#PWR058"
-			(at 148.59 63.5 0)
+			(at 148.59 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 60.96 0)
+			(at 148.59 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +3824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 57.15 0)
+			(at 148.59 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 57.15 0)
+			(at 148.59 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +3842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 57.15 0)
+			(at 148.59 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +3864,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 179.07 30.48 0)
+		(at 180.34 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3992,7 +3872,7 @@
 		(dnp no)
 		(uuid "a9da3d68-b9c5-4afd-9302-1ad3bc144b6e")
 		(property "Reference" "#PWR062"
-			(at 179.07 34.29 0)
+			(at 180.34 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +3881,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 179.07 26.67 0)
+			(at 180.34 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +3889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 30.48 0)
+			(at 180.34 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +3898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 30.48 0)
+			(at 180.34 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +3907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 179.07 30.48 0)
+			(at 180.34 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,6 +3998,71 @@
 			(project ""
 				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/8cf44fa8-3eba-448e-912c-b86163a0ee4c"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc23457f-901e-4420-9d4a-83ee2d8a2394")
+		(property "Reference" "#PWR061"
+			(at 210.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91ea2844-3356-4471-8a9e-39448a1d3bde")
+		)
+		(instances
+			(project "ESP32_sensor_board"
+				(path "/a7c0144a-eab4-4f71-87a7-133855887b73/33342595-9c3d-41d4-b977-eb44bc0caa7a/8cf44fa8-3eba-448e-912c-b86163a0ee4c"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4257,7 +4202,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 35.56 0)
+		(at 180.34 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4266,7 +4211,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4f50111-4a02-485e-8de9-44f534dc46e9")
 		(property "Reference" "R32"
-			(at 181.61 34.2899 0)
+			(at 182.88 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4220,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 181.61 36.8299 0)
+			(at 182.88 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4229,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 177.292 35.56 90)
+			(at 178.562 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 35.56 0)
+			(at 180.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4247,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 35.56 0)
+			(at 180.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

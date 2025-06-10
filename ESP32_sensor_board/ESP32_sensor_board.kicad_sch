@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESP32 sensor board - Root")
 		(date "2025-06-02")
-		(rev "1")
+		(rev "2")
 		(company "Ing. Andrés Chaparro")
 	)
 	(lib_symbols
@@ -4095,7 +4095,7 @@
 	)
 	(rectangle
 		(start 165.1 25.4)
-		(end 275.59 83.82)
+		(end 283.21 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -4232,7 +4232,7 @@
 		(uuid "66686f75-fcd6-42d8-8db1-f183af091117")
 	)
 	(junction
-		(at 259.08 27.94)
+		(at 265.43 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6687de1e-69c1-4810-aa91-030def2df5b0")
@@ -4256,7 +4256,7 @@
 		(uuid "c237381a-6778-4f6c-940a-b205eb4e8a90")
 	)
 	(junction
-		(at 248.92 27.94)
+		(at 255.27 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c61e9e77-688a-4174-9e07-6f2141a8851c")
@@ -4357,7 +4357,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 67.31) (xy 269.24 67.31)
+			(xy 233.68 67.31) (xy 275.59 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4367,7 +4367,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 59.69) (xy 248.92 59.69)
+			(xy 233.68 59.69) (xy 255.27 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4427,7 +4427,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 48.26) (xy 269.24 50.8)
+			(xy 275.59 48.26) (xy 275.59 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4507,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 40.64) (xy 248.92 27.94)
+			(xy 255.27 40.64) (xy 255.27 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4517,17 +4517,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 39.37) (xy 234.95 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2face284-b852-4f65-bfc6-e10854543e29")
-	)
-	(wire
-		(pts
-			(xy 248.92 27.94) (xy 259.08 27.94)
+			(xy 255.27 27.94) (xy 265.43 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4547,7 +4537,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 27.94) (xy 215.9 27.94)
+			(xy 255.27 27.94) (xy 215.9 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4557,7 +4547,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 48.26) (xy 248.92 50.8)
+			(xy 255.27 48.26) (xy 255.27 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4627,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 59.69) (xy 248.92 58.42)
+			(xy 255.27 59.69) (xy 255.27 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4737,7 +4727,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 39.37) (xy 234.95 39.37)
+			(xy 233.68 39.37) (xy 236.22 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4797,7 +4787,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 27.94) (xy 269.24 40.64)
+			(xy 275.59 27.94) (xy 275.59 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4877,7 +4867,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 64.77) (xy 259.08 64.77)
+			(xy 233.68 64.77) (xy 265.43 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4907,6 +4897,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 39.37) (xy 252.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e8c4e5-fd73-4dd1-937b-6f13921e1d10")
+	)
+	(wire
+		(pts
 			(xy 44.45 40.64) (xy 27.94 40.64)
 		)
 		(stroke
@@ -4917,7 +4917,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 27.94) (xy 259.08 40.64)
+			(xy 265.43 27.94) (xy 265.43 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4927,7 +4927,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 48.26) (xy 259.08 50.8)
+			(xy 265.43 48.26) (xy 265.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5017,7 +5017,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 27.94) (xy 269.24 27.94)
+			(xy 265.43 27.94) (xy 275.59 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5037,7 +5037,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 58.42) (xy 269.24 67.31)
+			(xy 275.59 58.42) (xy 275.59 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5077,7 +5077,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 58.42) (xy 259.08 64.77)
+			(xy 265.43 58.42) (xy 265.43 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5275,6 +5275,16 @@
 		)
 		(uuid "f863e2e4-22fe-44be-80f7-c128f354b4db")
 	)
+	(wire
+		(pts
+			(xy 252.73 39.37) (xy 252.73 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91066f5-30df-4d66-8d73-f5d87f5e57df")
+	)
 	(label "CC1"
 		(at 44.45 40.64 180)
 		(effects
@@ -5296,7 +5306,7 @@
 		(uuid "1969a6be-c158-4065-a0d3-5d6f858d65b7")
 	)
 	(label "LED3"
-		(at 269.24 49.53 0)
+		(at 275.59 49.53 0)
 		(effects
 			(font
 				(size 0.63 0.63)
@@ -5306,7 +5316,7 @@
 		(uuid "19e514fb-2d40-4c43-b141-b56e5e92d4f4")
 	)
 	(label "LED2"
-		(at 259.08 49.53 0)
+		(at 265.43 49.53 0)
 		(effects
 			(font
 				(size 0.63 0.63)
@@ -5324,6 +5334,16 @@
 			(justify right bottom)
 		)
 		(uuid "2bdae0fe-446a-4c3a-b4bd-b96847232bbf")
+	)
+	(label "OUT"
+		(at 233.68 39.37 0)
+		(effects
+			(font
+				(size 0.63 0.63)
+			)
+			(justify left bottom)
+		)
+		(uuid "32d51ed2-3e38-424d-9a56-3435377cd453")
 	)
 	(label "+5V_USB"
 		(at 215.9 27.94 0)
@@ -5376,7 +5396,7 @@
 		(uuid "807c6878-9276-4cf4-94c5-222dfb434ab0")
 	)
 	(label "LED1"
-		(at 248.92 49.53 0)
+		(at 255.27 49.53 0)
 		(effects
 			(font
 				(size 0.63 0.63)
@@ -6106,7 +6126,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
-		(at 248.92 45.72 90)
+		(at 255.27 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6114,7 +6134,7 @@
 		(dnp no)
 		(uuid "35906e2a-0b23-45f9-88a0-e6abb4cf8741")
 		(property "Reference" "LED1"
-			(at 255.27 46.99 90)
+			(at 261.62 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,7 +6143,7 @@
 			)
 		)
 		(property "Value" "LTST-C170KRKT"
-			(at 251.46 44.45 0)
+			(at 257.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6152,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIOC200X125X110"
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +6162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +6171,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6180,7 @@
 			)
 		)
 		(property "MF" "Lite-On Inc."
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6190,7 @@
 			)
 		)
 		(property "Description_1" "Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)"
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +6200,7 @@
 			)
 		)
 		(property "Package" "0805 Lite-On"
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6210,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,7 +6220,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/?ref=eda"
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6230,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/?ref=snap"
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6240,7 @@
 			)
 		)
 		(property "MP" "LTST-C170KRKT"
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6250,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6260,7 @@
 			)
 		)
 		(property "MANUFACTURER" "LiteOn"
-			(at 248.92 45.72 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,6 +6409,154 @@
 			(project "ESP32_sensor_board"
 				(path "/a7c0144a-eab4-4f71-87a7-133855887b73"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0ZCJ0110FF2E:0ZCJ0110FF2E")
+		(at 243.84 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a23ec0b-3b0b-4fab-a43a-40eb9e36e498")
+		(property "Reference" "F2"
+			(at 243.84 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0ZCJ0110FF2E"
+			(at 243.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RESC3216X125N"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bel Fuse"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "1206 SMT PPTC | 1.10 Ih | 8V"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 Bel Fuse"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0ZCJ0110FF2E/Bel+Circuit+Protection/view-part/?ref=snap"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "0ZCJ0110FF2E"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0ZCJ0110FF2E/Bel+Circuit+Protection/view-part/?ref=eda"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ad386b2-8829-4082-8546-9d06da88e32e")
+		)
+		(pin "2"
+			(uuid "1530616e-733e-45ef-b536-d5d9667283b2")
+		)
+		(instances
+			(project "ESP32_sensor_board"
+				(path "/a7c0144a-eab4-4f71-87a7-133855887b73"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -6722,7 +6890,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 248.92 54.61 180)
+		(at 255.27 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6730,7 +6898,7 @@
 		(dnp no)
 		(uuid "4eebecb6-1b00-4990-b106-b570add96a5d")
 		(property "Reference" "R9"
-			(at 252.73 53.34 0)
+			(at 259.08 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +6906,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 252.73 55.88 0)
+			(at 259.08 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6746,7 +6914,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 250.698 54.61 90)
+			(at 257.048 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 54.61 0)
+			(at 255.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6764,7 +6932,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 248.92 54.61 0)
+			(at 255.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +8006,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 234.95 38.1 0)
+		(at 252.73 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7846,7 +8014,7 @@
 		(dnp no)
 		(uuid "8f8f24d0-f918-432b-bafe-6777eee919f2")
 		(property "Reference" "#PWR024"
-			(at 234.95 41.91 0)
+			(at 252.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,7 +8023,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 234.95 34.29 0)
+			(at 252.73 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +8031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 38.1 0)
+			(at 252.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +8040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 38.1 0)
+			(at 252.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +8049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 234.95 38.1 0)
+			(at 252.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8658,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 259.08 54.61 180)
+		(at 265.43 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8498,7 +8666,7 @@
 		(dnp no)
 		(uuid "d105b506-8f23-4afe-9fb5-749271581dde")
 		(property "Reference" "R8"
-			(at 262.89 53.34 0)
+			(at 269.24 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,7 +8674,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 262.89 55.88 0)
+			(at 269.24 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8514,7 +8682,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 260.858 54.61 90)
+			(at 267.208 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +8691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 54.61 0)
+			(at 265.43 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +8700,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 259.08 54.61 0)
+			(at 265.43 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,7 +8725,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170KGKT:LTST-C170KGKT")
-		(at 259.08 45.72 90)
+		(at 265.43 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8565,7 +8733,7 @@
 		(dnp no)
 		(uuid "d58b18f2-836a-4a7a-88a7-0a31c397551e")
 		(property "Reference" "LED2"
-			(at 265.43 46.99 90)
+			(at 271.78 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8742,7 @@
 			)
 		)
 		(property "Value" "LTST-C170KGKT"
-			(at 261.62 44.45 0)
+			(at 267.97 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8751,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIOC200X125X110"
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +8761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +8770,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +8779,7 @@
 			)
 		)
 		(property "MF" "Lite-On Inc."
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8789,7 @@
 			)
 		)
 		(property "Description_1" "Green 571nm LED Indication - Discrete 2V 0805 (2012 Metric)"
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8799,7 @@
 			)
 		)
 		(property "Package" "0805 Lite-On"
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,7 +8809,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,7 +8819,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C170KGKT/Lite-On/view-part/?ref=eda"
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,7 +8829,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C170KGKT/Lite-On/view-part/?ref=snap"
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +8839,7 @@
 			)
 		)
 		(property "MP" "LTST-C170KGKT"
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +8849,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8859,7 @@
 			)
 		)
 		(property "MANUFACTURER" "LiteOn"
-			(at 259.08 45.72 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +8950,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170TBKT:LTST-C170TBKT")
-		(at 269.24 45.72 90)
+		(at 275.59 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8790,7 +8958,7 @@
 		(dnp no)
 		(uuid "de9bdbcd-bb01-42d3-b76c-c8ec4acd7b5f")
 		(property "Reference" "LED3"
-			(at 275.59 46.99 90)
+			(at 281.94 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +8967,7 @@
 			)
 		)
 		(property "Value" "LTST-C170TBKT"
-			(at 271.78 44.45 0)
+			(at 278.13 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +8976,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIOC200X125X110"
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +8986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8995,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +9004,7 @@
 			)
 		)
 		(property "MF" "Lite-On Electronics"
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,7 +9014,7 @@
 			)
 		)
 		(property "Description_1" "Blue 470nm LED Indication - Discrete 3.3V 0805 (2012 Metric)"
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +9024,7 @@
 			)
 		)
 		(property "Package" "0805 Lite-On"
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,7 +9034,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +9044,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C170TBKT/Lite-On/view-part/?ref=eda"
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8886,7 +9054,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C170TBKT/Lite-On/view-part/?ref=snap"
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +9064,7 @@
 			)
 		)
 		(property "MP" "LTST-C170TBKT"
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +9074,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +9084,7 @@
 			)
 		)
 		(property "MANUFACTURER" "LiteOn"
-			(at 269.24 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9285,7 +9453,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 269.24 54.61 180)
+		(at 275.59 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9293,7 +9461,7 @@
 		(dnp no)
 		(uuid "ea7ab865-70ae-45aa-aab5-ada7d7142e7a")
 		(property "Reference" "R7"
-			(at 273.05 53.34 0)
+			(at 279.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9469,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 273.05 55.88 0)
+			(at 279.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,7 +9477,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 271.018 54.61 90)
+			(at 277.368 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,7 +9486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 54.61 0)
+			(at 275.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,7 +9495,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 269.24 54.61 0)
+			(at 275.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

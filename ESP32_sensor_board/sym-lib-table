@@ -18,4 +18,6 @@
   (lib (name "BME280")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/BME280.kicad_sym")(options "")(descr ""))
   (lib (name "CMC-5042PF-AC")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/CMC-5042PF-AC.kicad_sym")(options "")(descr ""))
   (lib (name "USLPT2819DT2TR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/USLPT2819DT2TR.kicad_sym")(options "")(descr ""))
+  (lib (name "35WR100KLFTR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/35WR100KLFTR.kicad_sym")(options "")(descr ""))
+  (lib (name "TL3305AF260QG")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/TL3305AF260QG.kicad_sym")(options "")(descr ""))
 )

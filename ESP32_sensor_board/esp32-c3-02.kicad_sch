@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESP32 C3, USB and, flash memory")
 		(date "2025-06-02")
-		(rev "1")
+		(rev "2")
 		(company "Ing. Andrés Chaparro")
 	)
 	(lib_symbols
@@ -5300,16 +5300,6 @@
 		)
 		(uuid "fa952c12-ae3e-485a-be91-17fab9d754bb")
 	)
-	(label "MIC_OUT"
-		(at 187.96 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "005069b8-73d7-4a48-b8b9-7bc621e01137")
-	)
 	(label "VBUS_DI"
 		(at 72.39 50.8 180)
 		(effects
@@ -5540,6 +5530,16 @@
 		)
 		(uuid "591d5694-3bb1-4eb2-8bf2-bce99b018cd4")
 	)
+	(label "MIC_OUT"
+		(at 187.96 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bb08be4-cf12-4ef1-b52c-8c3f4ebedf70")
+	)
 	(label "MOSI_DI"
 		(at 140.97 121.92 0)
 		(effects
@@ -5721,14 +5721,14 @@
 		(uuid "b9221e3a-d790-4d5c-aa45-14694eff7d0b")
 	)
 	(label "CS_SD"
-		(at 187.96 49.53 180)
+		(at 187.96 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c158d733-cdd8-4ed8-a68a-15f440bcfacd")
+		(uuid "c43b25b8-9575-4b92-b39e-cc861bc24920")
 	)
 	(label "TX"
 		(at 99.06 73.66 0)
